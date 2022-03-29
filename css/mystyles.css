@@ -81,3 +81,9 @@
 .text-white > li > a{
     color: white !important;
 }
+
+@media (max-width: 768px) {
+    .h-100vh{
+        height: 75vh;
+    }
+}
