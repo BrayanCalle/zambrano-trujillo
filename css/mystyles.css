@@ -1,0 +1,74 @@
+.seccion2-home{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-seccion1{
+    display: flex;
+    justify-content: center;
+}
+
+.container-seccion2{
+    display: flex;
+    margin-top: 1.625em;
+    justify-content: center;
+}
+
+.mt-2zt{
+    margin-top: 1.5em;
+}
+
+.seccion3-cuadros{
+    height: 100vh;
+}
+
+.h-100vh{
+    height: 100vh;
+}
+
+#titulo-grupo-profesionales{
+    font-size: 35px;
+}
+
+#zambrano-trujillo{
+    font-size: 15px;
+}
+
+/* Pagina Servicios */
+
+#formulario-servicio > span > textarea,
+#formulario-servicio > div > span > input{
+    font-family: "Inter" !important;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+#select-formulario .ff-inter{
+    font-family: "Inter" !important;
+}
+
+#btn-contactanos{
+    background-color: #00e195;
+    border-color: #00e195;
+}
+
+.bg-gray{
+    background-color: #bebebe !important;
+}
+
+.bg-navbar{
+    background-color: #ffffff !important;
+}
+
+.pb-0{
+    padding-bottom: 0px !important;
+}
