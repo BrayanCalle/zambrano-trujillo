@@ -82,6 +82,14 @@
     color: white !important;
 }
 
+.text-white > li > a:hover{
+    color: #ffffff !important;
+}
+
+.text-black{
+    color: black;
+}
+
 @media (max-width: 768px) {
     .h-100vh{
         height: 75vh;
