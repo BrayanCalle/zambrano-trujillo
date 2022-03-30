@@ -94,4 +94,12 @@
     .h-100vh{
         height: 75vh;
     }
+
+    .background-list-title > h3{
+        font-size: 16px;
+    }
+
+    .fz-boton-conocemas{
+        font-size: 11px !important;
+    }
 }
