@@ -90,6 +90,10 @@
     color: black;
 }
 
+#menu-mobile .menu-hijos > ul > li > a{
+    font-weight: 500;
+}
+
 @media (max-width: 768px) {
     .h-100vh{
         height: 75vh;
