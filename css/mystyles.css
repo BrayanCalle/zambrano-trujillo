@@ -92,6 +92,7 @@
 
 #menu-mobile .menu-hijos > ul > li > a{
     font-weight: 500;
+    font-size: 16px;
 }
 
 @media (max-width: 768px) {
@@ -106,4 +107,9 @@
     .fz-boton-conocemas{
         font-size: 11px !important;
     }
+
+    #menu-mobile .menu-hijos > ul > li > a{
+        font-size: 14px;
+    }
+
 }
