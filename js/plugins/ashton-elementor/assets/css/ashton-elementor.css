@@ -334,7 +334,7 @@ body.fullmenu-active .fullmenu-wrapper-active {
 body.gallery-horizontal #wrapper,
 body.elementor-page #wrapper
 {
-	overflow-x: hidden;
+	overflow-x: inherit;
 }
 
 .twentytwenty-container 
