@@ -21012,6 +21012,8 @@ body.rtl .elementor-968 .elementor-element.elementor-element-5847310 {
 }
 body:not(.rtl) .elementor-968 .elementor-element.elementor-element-0bd2959 {
   right: 6%;
+  z-index: -1;
+  opacity: 0.1;
 }
 body.rtl .elementor-968 .elementor-element.elementor-element-0bd2959 {
   left: 6%;
