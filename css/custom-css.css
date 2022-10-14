@@ -41893,17 +41893,83 @@ body.elementor-page-2455
   margin-bottom: 0px;
   padding: 0px 0px 0px 0px;
 }
+/* Inversión extranjera y nacional */
+.elementor-2479 .elementor-element.elementor-element-45e9984-2 {
+  overflow: hidden;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px 0px 0px;
+}
+/* Fin Inversión extranjera y nacional */
+/* Sectores Estrategicos */
+.elementor-2479 .elementor-element.elementor-element-45e9984-3 {
+  overflow: hidden;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px 0px 0px;
+}
+/* Fin Sectores Estrategicos */
+/* Patrocinio y Arbitraje */
+.elementor-2479 .elementor-element.elementor-element-45e9984-4 {
+  overflow: hidden;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px 0px 0px;
+}
+/* Fin Patrocinio y Arbitraje */
 .elementor-2479
   .elementor-element.elementor-element-45e9984:not(.elementor-motion-effects-element-type-background),
 .elementor-2479
   .elementor-element.elementor-element-45e9984
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("../img/portadas/jpg/corporativo.jpg");
+  background-image: url("../img/portadas/jpg/abogados-corporativos-en-quito-cuenca-guayaquil.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* Inversión extranjera y nacional */
+.elementor-2479
+  .elementor-element.elementor-element-45e9984-2:not(.elementor-motion-effects-element-type-background),
+.elementor-2479
+  .elementor-element.elementor-element-45e9984-2
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("../img/portadas/jpg/asesoria-legal-en-inversion-en-quito-cuenca-guayaquil.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Fin Inversión extranjera y nacional */
+/* Sectores Estrategicos */
+.elementor-2479
+  .elementor-element.elementor-element-45e9984-3:not(.elementor-motion-effects-element-type-background),
+.elementor-2479
+  .elementor-element.elementor-element-45e9984-3
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("../img/portadas/jpg/asesoria-legal-en-sectores-estratégicos-en-quito-cuenca-guayaquil.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Fin Sectores Estrategicos */
+/* Patrocinio y Arbitraje */
+.elementor-2479
+  .elementor-element.elementor-element-45e9984-4:not(.elementor-motion-effects-element-type-background),
+.elementor-2479
+  .elementor-element.elementor-element-45e9984-4
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("../img/portadas/jpg/estudio-juridico-en-quito.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Fin Patrocinio y Arbitraje */
 .elementor-2479
   .elementor-element.elementor-element-45e9984
   > .elementor-background-overlay {
@@ -41912,6 +41978,36 @@ body.elementor-page-2455
   opacity: 0.7;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
+/* Inversión extranjera y nacional */
+.elementor-2479
+  .elementor-element.elementor-element-45e9984-2
+  > .elementor-background-overlay {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #0d1648 100%, #00000000 100%);
+  opacity: 0.7;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+/* Fin Inversión extranjera y nacional */
+/* Sectores Estrategicos */
+.elementor-2479
+  .elementor-element.elementor-element-45e9984-3
+  > .elementor-background-overlay {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #0d1648 100%, #00000000 100%);
+  opacity: 0.7;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+/* Fin Sectores Estrategicos */
+/* Patrocinio y Arbitraje */
+.elementor-2479
+  .elementor-element.elementor-element-45e9984-4
+  > .elementor-background-overlay {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #0d1648 100%, #00000000 100%);
+  opacity: 0.7;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+/* Fin Patrocinio y Arbitraje */
 .elementor-2479
   .elementor-element.elementor-element-72af500
   > .elementor-element-populated {
@@ -43779,6 +43875,36 @@ body.rtl .elementor-2479 .elementor-element.elementor-element-94f582d {
     > .elementor-motion-effects-layer {
     background-position: top center;
   }
+  /* Inversión extranjera y nacional */
+  .elementor-2479
+    .elementor-element.elementor-element-45e9984-2:not(.elementor-motion-effects-element-type-background),
+  .elementor-2479
+    .elementor-element.elementor-element-45e9984-2
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: top center;
+  }
+  /* Fin Inversión extranjera y nacional */
+  /* Sectores Estrategicos */
+  .elementor-2479
+    .elementor-element.elementor-element-45e9984-3:not(.elementor-motion-effects-element-type-background),
+  .elementor-2479
+    .elementor-element.elementor-element-45e9984-3
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: top center;
+  }
+  /* Fin Sectores Estrategicos */
+  /* Patrocinio y Arbitraje */
+  .elementor-2479
+    .elementor-element.elementor-element-45e9984-4:not(.elementor-motion-effects-element-type-background),
+  .elementor-2479
+    .elementor-element.elementor-element-45e9984-4
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: top center;
+  }
+  /* Fin Patrocinio y Arbitraje */
   .elementor-2479
     .elementor-element.elementor-element-72af500
     > .elementor-element-populated {
@@ -44276,6 +44402,36 @@ body.rtl .elementor-2479 .elementor-element.elementor-element-94f582d {
     > .elementor-motion-effects-layer {
     background-position: top center;
   }
+  /* Inversión extranjera y nacional */
+  .elementor-2479
+    .elementor-element.elementor-element-45e9984-2:not(.elementor-motion-effects-element-type-background),
+  .elementor-2479
+    .elementor-element.elementor-element-45e9984-2
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: top center;
+  }
+  /* Fin Inversión extranjera y nacional */
+  /* Inversión Sectores Estrategicos */
+  .elementor-2479
+    .elementor-element.elementor-element-45e9984-3:not(.elementor-motion-effects-element-type-background),
+  .elementor-2479
+    .elementor-element.elementor-element-45e9984-3
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: top center;
+  }
+  /* Fin Inversión Sectores Estrategicos */
+  /* Patrocinio y Arbitraje */
+  .elementor-2479
+    .elementor-element.elementor-element-45e9984-4:not(.elementor-motion-effects-element-type-background),
+  .elementor-2479
+    .elementor-element.elementor-element-45e9984-4
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: top center;
+  }
+  /* Fin Patrocinio y Arbitraje */
   .elementor-2479
     .elementor-element.elementor-element-72af500
     > .elementor-element-populated {
@@ -59220,7 +59376,7 @@ body.rtl .elementor-3373 .elementor-element.elementor-element-b4368e0 {
   .elementor-element.elementor-element-36f36d1
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("../upload/african-american-businesswoman-QDHALB8.jpg");
+  background-image: url("../img/portadas/jpg/consorcio-juridico-en-quito-cuenca-guayaquil.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69688,10 +69844,10 @@ body.rtl .elementor-5198 .elementor-element.elementor-element-c9650d2 {
   .elementor-element.elementor-element-8fedf26
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("../upload/modern-wooden-building-exterior-PGYUYXB.jpg");
-  background-position: bottom center;
+  background-image: url("../img/portadas/jpg/estrategicos.jpg");
+  /* background-position: bottom center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 .elementor-5289 .elementor-element.elementor-element-8fedf26 {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
