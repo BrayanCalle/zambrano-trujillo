@@ -1,12 +1,17 @@
 <?php
 
-$EmailFrom = "test@test.com";
+$Name = Trim(stripslashes($_POST['nombre'])); 
+$Tel = Trim(stripslashes($_POST['telefono'])); 
+$Email = Trim(stripslashes($_POST['email'])); 
+$Message = Trim(stripslashes($_POST['mensaje'])); 
+
+$header = 'From: ' . $Email . " \r\n";
+$header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
+$header .= "Mime-Version: 1.0 \r\n";
+$header .= "Content-Type: text/plain";
+
 $EmailTo = "info@zambranotrujillo.com";
-$Subject = "Testing This one";
-$Name = Trim(stripslashes($_POST['Name'])); 
-$Tel = Trim(stripslashes($_POST['Tel'])); 
-$Email = Trim(stripslashes($_POST['Email'])); 
-$Message = Trim(stripslashes($_POST['Message'])); 
+$Subject = "Mensaje desde zambranotrujillo.com/firma-de-abogados-contactanos";
 
 // validation
 $validationOK=true;
@@ -16,28 +21,29 @@ if (!$validationOK) {
 }
 
 // prepare email body text
-$Body = "";
-$Body .= "Name: ";
-$Body .= $Name;
-$Body .= "\n";
-$Body .= "Tel: ";
-$Body .= $Tel;
-$Body .= "\n";
-$Body .= "Email: ";
-$Body .= $Email;
-$Body .= "\n";
-$Body .= "Message: ";
-$Body .= $Message;
-$Body .= "\n";
+$mensaje = "";
+$mensaje .= "Este mensaje fue enviado por: " .$Name . ",\r\n";
+$mensaje .= "Telefono: " .$Tel .",\r\n";
+$mensaje .= "Su Email es: " .$Email .",\r\n";
+$mensaje .= "Mensaje: " .$Message .",\r\n";
+$mensaje .= "Enviado el " . date('d/m/Y', time());
 
 // send email 
-$success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
+$success = mail($EmailTo, $Subject, $mensaje,$header );
+
+if($Name === '' || $Email === ''){
+  echo json_encode('error');
+}else{
+  echo json_encode('Correcto: <br>Nombre:'.$Name .'<br> Email:'.$Email);
+}
+
+
 
 // redirect to success page 
-if ($success){
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=contactthanks.php\">";
-}
-else{
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
-}
+// if ($success){
+//   print "<meta http-equiv=\"refresh\" content=\"0;URL=contactthanks.php\">";/
+// }
+// else{
+//   print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
+// }
 ?>

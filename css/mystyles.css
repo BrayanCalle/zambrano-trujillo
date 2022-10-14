@@ -183,6 +183,32 @@
     margin-top: 0.9375em;
 }
 
+.mt-3zt{
+    margin-top: 1em;
+}
+
+/* Bootstrap alerts */
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.alert-primary {
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+}
+
+.alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+/* Fin Bootstrap alerts */
+
 
 @media (max-width: 768px) {
     .h-100vh{

@@ -12,9 +12,8 @@
 		<br /><br />
 		
 			
-		<h1>Your message has been sent!</h1><br />
-		
-		<p><a href="../contact-us-1.html">Back to Contact Form</a></p>
+		<p>Su mensaje ah sido enviado</p><br />
+		<p><a href="../index.html">Regresar al Inicio</a></p>
 	
 	</div>
 	

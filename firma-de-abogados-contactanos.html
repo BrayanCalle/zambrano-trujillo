@@ -711,21 +711,24 @@
                                                                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                                         <ul></ul>
                                                                     </div>
-                                                                    <form method="post" action="contactform/contactengine.php" class="forms-input">
-                                                                        <label for="Name">Nombres:</label>
-                                                                        <input type="text" name="Name" id="Name" />
+                                                                    <form id="formulario" method="post" action="contactform/contactengine.php" class="forms-input">
+                                                                        <label for="nombre">Nombres y Apellidos:</label>
+                                                                        <input type="text" name="nombre" id="nombre" required="required" />
                                                                         
                                                                         <label for="telefono">Teléfono:</label>
-                                                                        <input type="text" name="telefono" id="Tel" />
+                                                                        <input type="text" name="telefono" id="telefono" required="required" />
                                                             
                                                                         <label for="email">Email:</label>
-                                                                        <input type="text" name="email" id="Email" />
+                                                                        <input type="email" name="email" id="email" required="required" style="background-color: transparent; border-color: #000; width: 100%;" />
                                                                         
                                                                         <label for="mensaje">Mensaje:</label><br />
-                                                                        <textarea name="mensaje" rows="20" cols="20" id="Message"></textarea>
+                                                                        <textarea name="mensaje" rows="20" cols="20" id="mensaje" required="required"></textarea>
 
                                                                         <input type="submit" name="submit" value="Enviar" class="submit-button" id="btn-enviar" />
                                                                     </form>
+                                                                    <div class="mt-3zt" id="respuesta">
+                                                                        
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1177,6 +1180,7 @@
     </div>
 
     <script src="js/modal.js"></script>
+    <script src="js/contactanos.js"></script>
     <script type="text/javascript" src="js/jquery.js?ver=3.6.0" id="jquery-core-js"></script>
     <script type="text/javascript" src="js/jquery-migrate.js?ver=3.3.2" id="jquery-migrate-js"></script>
     <script type="text/javascript" src="js/plugins/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js"></script>
