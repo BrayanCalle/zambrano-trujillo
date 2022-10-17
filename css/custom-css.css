@@ -41939,7 +41939,7 @@ body.elementor-page-2455
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   background-image: url("../img/portadas/jpg/asesoria-legal-en-inversion-en-quito-cuenca-guayaquil.jpg");
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -41952,7 +41952,7 @@ body.elementor-page-2455
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   background-image: url("../img/portadas/jpg/asesoria-legal-en-sectores-estratégicos-en-quito-cuenca-guayaquil.jpg");
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -67445,8 +67445,8 @@ body.rtl .elementor-3585 .elementor-element.elementor-element-d4997f1 {
   .elementor-element.elementor-element-9db8b94
   > .elementor-background-overlay {
   background-color: transparent;
-  background-image: linear-gradient(270deg, #ffffff00 0%, #000000 100%);
-  opacity: 0.3;
+  background-image: linear-gradient(180deg, #0d1648 100%, #00000000 100%);
+  opacity: 0.8;
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 .elementor-5198 .elementor-element.elementor-element-9db8b94 {
@@ -67536,7 +67536,7 @@ body.rtl .elementor-3585 .elementor-element.elementor-element-d4997f1 {
   .elementor-element.elementor-element-fd4a192
   .themegoods-animated-text
   span {
-  color: #ffffff;
+  color: #00e195;
 }
 .elementor-5198
   .elementor-element.elementor-element-fd4a192

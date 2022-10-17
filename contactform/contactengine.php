@@ -34,16 +34,6 @@ $success = mail($EmailTo, $Subject, $mensaje,$header );
 if($Name === '' || $Email === ''){
   echo json_encode('error');
 }else{
-  echo json_encode('Correcto: <br>Nombre:'.$Name .'<br> Email:'.$Email);
+  echo json_encode('Correcto:');
 }
-
-
-
-// redirect to success page 
-// if ($success){
-//   print "<meta http-equiv=\"refresh\" content=\"0;URL=contactthanks.php\">";/
-// }
-// else{
-//   print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
-// }
 ?>

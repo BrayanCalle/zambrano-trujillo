@@ -1367,19 +1367,18 @@
                                                                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                                                                         <ul></ul>
                                                                     </div>
-                                                                    <form action="#" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+                                                                    <form action="#" method="post" id="formulario" class="wpcf7-form init" data-status="init">
 
                                                                         <div class="one-half">
                                                                             <span class="wpcf7-form-control-wrap your-name">
                                                                                 <input
                                                                                     type="text"
-                                                                                    name="your-name"
+                                                                                    name="nombre"
                                                                                     value=""
                                                                                     size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                    aria-required="true"
-                                                                                    aria-invalid="false"
                                                                                     placeholder="Nombre y Apellido"
+                                                                                    required="required"
                                                                                 />
                                                                             </span>
                                                                         </div>
@@ -1388,25 +1387,24 @@
                                                                             <span class="wpcf7-form-control-wrap your-email">
                                                                                 <input
                                                                                     type="email"
-                                                                                    name="your-email"
+                                                                                    name="email"
                                                                                     value=""
                                                                                     size="40"
-                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                                                                                    aria-required="true"
-                                                                                    aria-invalid="false"
+                                                                                    class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required"
                                                                                     placeholder="Email"
+                                                                                    required="required"
                                                                                 />
                                                                             </span>
                                                                         </div>
 
                                                                         <div class="one-half">
                                                                             <span class="wpcf7-form-control-wrap service">
-                                                                                <select name="service" class="wpcf7-form-control wpcf7-select" id="service" aria-invalid="false">
-                                                                                    <option value="Mergers &amp; Acquisitions">Requiero Asesoría</option>
-                                                                                    <option value="Mergers &amp; Acquisitions">Corporativo Y Societario</option>
-                                                                                    <option value="Pensions &amp; Benefits">Inversión Extranjera y Nacional</option>
-                                                                                    <option value="Dispute Resolution">Sectores Estratégicos</option>
-                                                                                    <option value="Health Care">Patrocinio y Arbitraje</option>
+                                                                                <select name="service" class="wpcf7-form-control wpcf7-select" id="servicio" name="servicio[]" aria-invalid="false">
+                                                                                    <option value disabled selected>Requiero Asesoría</option>
+                                                                                    <option value="corporativo-y-societario">Corporativo Y Societario</option>
+                                                                                    <option value="inversion-extranjera-y-nacional">Inversión Extranjera y Nacional</option>
+                                                                                    <option value="sectores-estrategicos">Sectores Estratégicos</option>
+                                                                                    <option value="patrocinio-y-arbitraje">Patrocinio y Arbitraje</option>
                                                                                 </select>
                                                                             </span>
                                                                         </div>
@@ -1415,24 +1413,24 @@
                                                                             <span class="wpcf7-form-control-wrap Phone">
                                                                                 <input
                                                                                     type="text"
-                                                                                    name="Phone"
+                                                                                    name="telefono"
                                                                                     value=""
                                                                                     size="40"
                                                                                     class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                    aria-required="true"
-                                                                                    aria-invalid="false"
                                                                                     placeholder="Teléfono"
+                                                                                    required="required"
                                                                                 />
                                                                             </span>
                                                                         </div>
 
                                                                         <span class="wpcf7-form-control-wrap your-message">
-                                                                            <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Tu Mensaje..."></textarea>
+                                                                            <textarea name="comentarios" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" placeholder="Tu Mensaje..." required="required"></textarea>
                                                                         </span>
 
                                                                         <input type="submit" value="Contáctanos" class="wpcf7-form-control wpcf7-submit" />
                                                                         <div class="wpcf7-response-output" aria-hidden="true"></div>
                                                                     </form>
+                                                                    <div class="mt-6zt" id="respuesta"></div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2216,6 +2214,7 @@
     </div>
 
     <script src="js/modal.js"></script>
+    <script src="js/formulario-home.js"></script>
     <script type="text/javascript" src="js/jquery.js?ver=3.6.0" id="jquery-core-js"></script>
     <script type="text/javascript" src="js/jquery-migrate.js?ver=3.3.2" id="jquery-migrate-js"></script>
     <script type="text/javascript" src="js/plugins/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js"></script>

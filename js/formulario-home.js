@@ -7,14 +7,11 @@ formulario.addEventListener('submit', function(e){
 
     var datos = new FormData(formulario);
 
-    console.log(datos)
-    console.log(datos.get('nombre'))
-    console.log(datos.get('email'))
-    console.log(datos.get('telefono'))
-    console.log(datos.get('servicio'))
-    console.log(datos.get('mensaje'))
+    // console.log(datos)
+    // console.log(datos.get('nombre'))
+    // console.log(datos.get('service'))
 
-    fetch('../contactform/contactengine.php',{
+    fetch('../contactform/formulariohome.php',{
         method:'POST',
         body: datos
     })
