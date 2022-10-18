@@ -151,6 +151,10 @@ em {
 	margin: 0 !important;
 }
 
+.page-id-82 > #perspective > #wrapper > #page-content-wrapper p{
+	padding-top: 0em;
+}
+
 #footer p {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
