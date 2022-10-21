@@ -191,6 +191,13 @@
     margin-top: 3em;
 }
 
+/* Sobre Nosotros */
+.sobre-imagen{
+    position: relative;
+    z-index: 2;
+}
+/* Fin Sobre Nosotros */
+
 /* Bootstrap alerts */
 .alert {
     position: relative;
