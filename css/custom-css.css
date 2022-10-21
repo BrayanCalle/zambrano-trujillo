@@ -21607,6 +21607,7 @@ body.rtl .elementor-968 .elementor-element.elementor-element-0bd2959 {
     > .elementor-motion-effects-container
     > .elementor-motion-effects-layer {
     background-position: top center;
+    background-size: 100% 100%;
   }
   .elementor-968
     .elementor-element.elementor-element-5f4647f
@@ -44401,6 +44402,7 @@ body.rtl .elementor-2479 .elementor-element.elementor-element-94f582d {
     > .elementor-motion-effects-container
     > .elementor-motion-effects-layer {
     background-position: top center;
+    background-size: 135% 100%;
   }
   /* Inversión extranjera y nacional */
   .elementor-2479
@@ -44410,6 +44412,7 @@ body.rtl .elementor-2479 .elementor-element.elementor-element-94f582d {
     > .elementor-motion-effects-container
     > .elementor-motion-effects-layer {
     background-position: top center;
+    background-position-x: 62%;
   }
   /* Fin Inversión extranjera y nacional */
   /* Inversión Sectores Estrategicos */
@@ -44420,6 +44423,8 @@ body.rtl .elementor-2479 .elementor-element.elementor-element-94f582d {
     > .elementor-motion-effects-container
     > .elementor-motion-effects-layer {
     background-position: top center;
+    background-position-x: 25%;
+    background-size: 124% 100%;
   }
   /* Fin Inversión Sectores Estrategicos */
   /* Patrocinio y Arbitraje */
@@ -44430,6 +44435,8 @@ body.rtl .elementor-2479 .elementor-element.elementor-element-94f582d {
     > .elementor-motion-effects-container
     > .elementor-motion-effects-layer {
     background-position: top center;
+    background-size: 150% 100%;
+    background-position-x: 44%;
   }
   /* Fin Patrocinio y Arbitraje */
   .elementor-2479
@@ -67442,6 +67449,12 @@ body.rtl .elementor-3585 .elementor-element.elementor-element-d4997f1 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media screen and (max-width:767px) {
+  .elementor-5198 .elementor-element.elementor-element-9db8b94:not(.elementor-motion-effects-element-type-background),
+    .elementor-5198 .elementor-element.elementor-element-9db8b94>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+      background-size: 100% 100%;
+    }
 }
 .elementor-5198
   .elementor-element.elementor-element-9db8b94
