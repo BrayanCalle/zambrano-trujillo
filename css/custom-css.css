@@ -60790,6 +60790,8 @@ body.rtl .elementor-3440 .elementor-element.elementor-element-3afa62b {
     > .elementor-motion-effects-container
     > .elementor-motion-effects-layer {
     background-position: top center;
+    background-position-x: 42%;
+    background-size: 138% 100%;
   }
   .elementor-3440
     .elementor-element.elementor-element-b22880e
