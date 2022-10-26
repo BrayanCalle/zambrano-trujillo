@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "limpiacss": "purgecss --css ./css/wordpress.css --content *.html --output ./dist/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrayanCalle/zambrano-trujillo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrayanCalle/zambrano-trujillo/issues"
+  },
+  "homepage": "https://github.com/BrayanCalle/zambrano-trujillo#readme",
+  "devDependencies": {
+    "purgecss": "^5.0.0"
+  }
+}
