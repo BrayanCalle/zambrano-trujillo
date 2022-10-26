@@ -1,15 +1,1 @@
-function mostrarmodal(){
-    document.getElementById("myModal").classList.remove("modal") 
-}
-
-document.getElementById("legal").onclick = function(){
-    mostrarmodal();
-}
-
-function quitarmodal() {
-    document.getElementById("myModal").classList.add("modal")
-}
-
-document.getElementById("cerrar-modal").onclick = function(){
-    quitarmodal();
-}
+function mostrarmodal(){document.getElementById("myModal").classList.remove("modal")}function quitarmodal(){document.getElementById("myModal").classList.add("modal")}document.getElementById("legal").onclick=function(){mostrarmodal()},document.getElementById("cerrar-modal").onclick=function(){quitarmodal()};

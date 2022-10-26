@@ -1,38 +1,9 @@
-var formulario = document.getElementById('formulario');
-var respuesta = document.getElementById('respuesta');
-
-formulario.addEventListener('submit', function(e){
-    e.preventDefault();
-    // console.log('diste click')
-
-    var datos = new FormData(formulario);
-
-    // console.log(datos)
-    // console.log(datos.get('nombre'))
-    // console.log(datos.get('service'))
-
-    fetch('../contactform/formulariohome.php',{
-        method:'POST',
-        body: datos
-    })
-        .then( res => res.json())
-        .then( data => {
-            if( data === 'error'){
-                respuesta.innerHTML = `
+var formulario=document.getElementById("formulario"),respuesta=document.getElementById("respuesta");formulario.addEventListener("submit",function(e){e.preventDefault(),fetch("../contactform/formulariohome.php",{method:"POST",body:new FormData(formulario)}).then(e=>e.json()).then(e=>{"error"===e?respuesta.innerHTML=`
                 <div class="alert alert-danger" role="alert">
                     Error, llena todo los campos
                 </div>
-                `;
-            }else{
-                respuesta.innerHTML = `
+                `:(respuesta.innerHTML=`
                 <div class="alert alert-primary" role="alert">
                     Mensaje Enviado
                 </div>
-                `;
-                formulario.reset();
-            }
-        })
-
-})
-
-
+                `,formulario.reset())})});

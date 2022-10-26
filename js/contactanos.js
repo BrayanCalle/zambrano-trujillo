@@ -1,41 +1,9 @@
-var formulario = document.getElementById('formulario');
-var respuesta = document.getElementById('respuesta');
-
-formulario.addEventListener('submit', function(e){
-    e.preventDefault();
-    // console.log('diste click')
-
-    var datos = new FormData(formulario);
-
-    console.log(datos)
-    console.log(datos.get('nombre'))
-    console.log(datos.get('email'))
-    console.log(datos.get('telefono'))
-    console.log(datos.get('servicio'))
-    console.log(datos.get('mensaje'))
-
-    fetch('../contactform/contactengine.php',{
-        method:'POST',
-        body: datos
-    })
-        .then( res => res.json())
-        .then( data => {
-            if( data === 'error'){
-                respuesta.innerHTML = `
+var formulario=document.getElementById("formulario"),respuesta=document.getElementById("respuesta");formulario.addEventListener("submit",function(e){e.preventDefault();var r=new FormData(formulario);console.log(r),console.log(r.get("nombre")),console.log(r.get("email")),console.log(r.get("telefono")),console.log(r.get("servicio")),console.log(r.get("mensaje")),fetch("../contactform/contactengine.php",{method:"POST",body:r}).then(e=>e.json()).then(e=>{"error"===e?respuesta.innerHTML=`
                 <div class="alert alert-danger" role="alert">
                     Error, llena todo los campos
                 </div>
-                `;
-            }else{
-                respuesta.innerHTML = `
+                `:(respuesta.innerHTML=`
                 <div class="alert alert-primary" role="alert">
                     Mensaje Enviado
                 </div>
-                `;
-                formulario.reset();
-            }
-        })
-
-})
-
-
+                `,formulario.reset())})});
