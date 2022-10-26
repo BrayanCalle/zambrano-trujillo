@@ -1,0 +1,227 @@
+.seccion2-home{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-seccion1{
+    display: flex;
+    justify-content: center;
+}
+
+.container-seccion2{
+    display: flex;
+    margin-top: 1.625em;
+    justify-content: center;
+}
+
+.mt-2zt{
+    margin-top: 1.5em;
+}
+
+.h-100vh{
+    height: 100vh;
+}
+
+#titulo-grupo-profesionales{
+    font-size: 35px;
+}
+
+#zambrano-trujillo{
+    font-size: 15px;
+}
+
+/* Pagina Servicios */
+
+#formulario-servicio > span > textarea,
+#formulario-servicio > div > span > input{
+    font-family: "Inter" !important;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+#select-formulario .ff-inter{
+    font-family: "Inter" !important;
+}
+
+#btn-contactanos{
+    background-color: #00e195;
+    border-color: #00e195;
+}
+
+#btn-enviar{
+    background-color: #00e195;
+    border-color: #00e195;
+}
+
+.bg-navbar{
+    background-color: #ffffff !important;
+}
+
+.pb-0{
+    padding-bottom: 0px !important;
+}
+
+.text-white > li > a{
+    color: white !important;
+}
+
+.text-white > li > a:hover{
+    color: #ffffff !important;
+}
+
+.text-black{
+    color: black;
+}
+
+#menu-mobile .menu-hijos > ul > li > a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.menu-hijos a{
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 5px 0px;
+}
+
+/* Boton modal */
+.modal{
+    display: none;
+}
+
+.legal-modal{
+    cursor: pointer;
+}
+
+.modal-dialog{
+    width: 600px;
+    background-color: #1a3668;
+    color: #fefeff;
+    position: relative;
+    overflow: initial;
+    padding: 20px;
+    box-shadow: 0 11px 15px -7px rgb(0 0 0 / 20%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+    border-radius: 2px;
+    margin: 24px;
+    overflow-y: auto;
+    pointer-events: auto;
+    transition: .3s cubic-bezier(.25,.8,.25,1);
+    z-index: inherit;
+}
+
+.modal-content{
+    height: 300px;
+    /* overflow-y: scroll; */
+}
+
+.modal-title{
+    text-align: center;
+    color: #00e195;
+}
+
+.cuerpo-modal,
+.cuerpo-modal> h1,
+.cuerpo-modal> h2,
+.cuerpo-modal> h3,
+.cuerpo-modal> h4,
+.cuerpo-modal> h5{
+    text-align: justify;
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-cerrar-modal{
+    background-color: #00e195;
+    border-color: #00e195;
+    font-size: 1em;
+    padding: 0.75em 2.25em;
+    margin-bottom: auto;
+    margin-top: 0.9375em;
+}
+
+.mt-3zt{
+    margin-top: 1em;
+}
+
+.mt-6zt{
+    margin-top: 3em;
+}
+
+/* Sobre Nosotros */
+.sobre-imagen{
+    position: relative;
+    z-index: 2;
+}
+/* Fin Sobre Nosotros */
+
+/* Bootstrap alerts */
+/* Fin Bootstrap alerts */
+
+.titulos-h5 {
+    font-size: 22px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: 700;
+    font-family: Poppins;
+    letter-spacing: 0px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#page-content-wrapper .titulos-h5{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+    .h-100vh{
+        height: 75vh;
+    }
+
+    .background-list-title > h3{
+        font-size: 16px;
+    }
+
+    .fz-boton-conocemas{
+        font-size: 11px !important;
+    }
+
+    #menu-mobile .menu-hijos > ul > li > a{
+        font-size: 14px;
+    }
+
+    #menu-mobile .menu-hijos > a{
+        font-size: 18px;
+        line-height: 1.4;
+        margin: 5px 0px;
+    }
+
+    .titulos-h5{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .titulos-h5{
+        font-size: 18px;
+    }
+}
