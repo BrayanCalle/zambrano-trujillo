@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "limpiacss": "purgecss --css ./css/mystyles.css --content *.html --output ./dist/css/"
+    "limpiacss": "purgecss --css ./css/custom-css.css --content *.html --output ./dist/css/"
   },
   "repository": {
     "type": "git",

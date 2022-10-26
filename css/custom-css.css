@@ -19745,10 +19745,17 @@ body:not(.rtl)
   .elementor-element.elementor-element-8c996f0
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("../img/Home/portada-home-completa.jpg");
+  /* background-image: url("../img/Home/portada-home-completa.jpg"); */
   background-position-y: -100px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.no-webp{
+    background-image: url("../img/Home/portada-home-completa.jpg");
+}
+
+.webp2{
+    background-image: url("../img/Home/webp/portada-home-completa.webp");
 }
 .elementor-968
   .elementor-element.elementor-element-8c996f0
